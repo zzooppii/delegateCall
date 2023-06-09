@@ -9,6 +9,9 @@ contract Basic {
     address public sender;
     uint public value;
 
+    address public abc;
+    uint256 public a;
+
     function setVars(uint _num) public payable {
         num = _num;
         sender = msg.sender;

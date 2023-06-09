@@ -6,6 +6,9 @@ contract delegate {
     address public sender;
     uint public value;
 
+    address public abc;
+    address public a;
+
     function setVars(address _contract, uint _num) public payable {
         // A's storage is set, B is not modified.
         (bool success, bytes memory data) = _contract.delegatecall(
