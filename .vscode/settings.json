@@ -1,0 +1,5 @@
+{
+    "solidity.compileUsingLocalVersion": "/Users/harvey/Desktop/onther/delegateCallTest/delegateCall/soljson-v0.8.20+commit.a1b79de6.js",
+    "solidity.compileUsingRemoteVersion": "v0.8.17+commit.8df45f5f",
+    "solidity.defaultCompiler": "remote"
+}
